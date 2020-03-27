@@ -45,6 +45,6 @@ if (class_exists('autoptimizeCache')) {
 add_filter( 'generate_copyright','tu_custom_copyright' );
 function tu_custom_copyright() {
     ?>
-   <span class="copyright">© 2020 <a href="<?php echo get_home_url(); ?>"><?php echo get_bloginfo( 'name' ); ?></a>  |  <a href="/impressum/">Impressum</a>  |  <a href="/datenschutz/">Datenschutz</a></span>
+   <span class="copyright">© 2020 <a href="https://vgf-online.de">VGF-Online.de</a>  |  <a href="/impressum/">Impressum</a>  |  <a href="/datenschutz/">Datenschutz</a></span>
     <?php
 }
