@@ -39,15 +39,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 			if ( function_exists('yoast_breadcrumb') ) {
 			  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
 			}
-			/**
-			 * generate_after_entry_title hook.
-			 *
-			 * @since 0.1
-			 *
-			 * @hooked generate_post_meta - 10
-			 */
-			do_action( 'generate_after_entry_title' );
 			?>
+			<div class="reading-time">
+				<span class="reading-time"><?php echo theme_slug_reading_time(); ?></span><br>
+			</div>
 		</header><!-- .entry-header -->
 
 		<?php
